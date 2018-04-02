@@ -15,7 +15,7 @@
 
   $html = $Parsedown->text($file);
 ?>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,8 +23,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>News | Mindsharp Story</title>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Noto+Sans+Thai+UI:300,400,500,700|Material+Icons&amp;subset=thai" rel="stylesheet">
+  <link href="/css/main.css" rel="stylesheet">
   <meta name="theme-color" content="#01579b">
   <meta name="msapplication-navbutton-color" content="#01579b">
   <meta name="apple-mobile-web-app-status-bar-style" content="#01579b">
@@ -37,35 +38,6 @@
   <meta property="og:description" content="Mindsharp Story" />
   <meta property="og:image" content="https://mindsharp.rayriffy.com/img/pr1.jpg" />
   <link rel="icon" type="image/jpg" href="../img/ico.jpg">
-  <style>
-    body {
-      display: flex;
-      min-height: 100vh;
-      flex-direction: column;
-    }
-
-    main {
-      flex: 1 0 auto;
-    }
-    .riffyfullH {
-      height: 100vh !important;
-    }
-    .carousel-slider {
-    height: 400px !important;
-    }
-    .dropdown-content {
-      width: 250px  !important;
-    }
-    .header {
-      font-weight: 350;
-    }
-    .light {
-      font-weight: 300;
-    }
-    blockquote {
-      border-left: 5px solid #2196f3 !important;
-    }
-  </style>
   <style>
     body {
     	overflow: hidden;
@@ -196,8 +168,7 @@
     <li><div class="divider"></div></li>
     <li><a class="subheader">© <? echo date("Y"); ?> Riffy Tech</a></li>
   </ul>
-
-  <script src="../js/materialize.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 </body>
 </html>
 
