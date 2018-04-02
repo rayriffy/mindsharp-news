@@ -1,5 +1,5 @@
 <?
-  include('../api/Phrasedown.php');
+  include('api/Phrasedown.php');
 
   $res=glob($_REQUEST['id'].".*");
 
