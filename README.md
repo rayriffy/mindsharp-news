@@ -1,0 +1,1 @@
+mindsharp-news
