@@ -4,14 +4,10 @@
   $file_ex=explode(".",$res[0]);
   if($res[0]==null)
   {
-    header('Location: ./');
-  }
-  $file = file_get_contents($res[0]);
-  if($file==null)
-  {
-    header("HTTP/1.0 404 Not Found");
+    header('Location: ../');
     die();
   }
+  $file = file_get_contents($res[0]);
   $Parsedown = new Parsedown();
   $html = $Parsedown->text($file);
 ?>
